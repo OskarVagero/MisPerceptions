@@ -1,4 +1,4 @@
-)# How (mis-)perceptions influence the acceptance of wind power deployment – can Energy Justice contribute to reaching a socio-technical tipping point?
+# How (mis-)perceptions influence the acceptance of wind power deployment – can Energy Justice contribute to reaching a socio-technical tipping point?
 This repository is based on work performed within the [HORIZON 2020 project WIMBY (Wind In My Backyard: Using holistic modelling tools to advance social awareness and engagement on large wind power installations in the EU)](https://cordis.europa.eu/project/id/101083460).
 
 ## Sentiment analysis of Twitter data
