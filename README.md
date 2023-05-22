@@ -11,6 +11,7 @@ We currently operate with an allowlist of places within a country, following the
 
 * For **Austria**, the places are sourced from [Wikipedia](https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Austria), and covers 98.87% of Austria's population. 
 * For **France**, the places are sourced from [Banatic](https://www.banatic.interieur.gouv.fr/V5/fichiers-en-telechargement/fichiers-telech.php) and available in English through the sublinks of [this Wikipedia page](https://en.wikipedia.org/wiki/Lists_of_communes_of_France). Currently, there is no verification of how much of the population is covered, however, it is known to be greater than 40%. With 6941 different locations, it is expected to be comprehensive. 
+* For **Germany**, the list contain 2055 cities and towns, sourced from [Wikipedia](https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Germany). Currently, it does not include population data, but a potential data source is [Statistikportal.de](https://www.statistikportal.de/de/gemeindeverzeichnis).
 * For **Norway**, the places include _townships_ of at least 200 people within 50 meter of one another and covers at least 82.67% of the population, based on numbers from [Statistics Norway](https://www.ssb.no/befolkning/folketall/statistikk/tettsteders-befolkning-og-areal). 
 
 ### Data overview
