@@ -25,4 +25,4 @@ We currently operate with an allowlist of places within a country, following the
 | Tweets excluded due to illegible geodata | 450,050 | 39,588 |  | 300,541 | 51,131 |  | 22,827 |
 | Final sample of tweets | 278,907 | 17,443 |  | 428,416 | 147,680 | | 63,830 |
 | Tweets per million inhabitants | 
-| Population covered | 99% | 72% | | | | | 83% |
+| Population covered | 99% | 72% | | |100% | | 83% |
