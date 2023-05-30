@@ -26,3 +26,21 @@ We currently operate with an allowlist of places within a country, following the
 | Final sample of tweets | 278,907 | 17,443 | 989,237 | 428,416 | 147,680 | | 63,830 |
 | Tweets per million inhabitants | 
 | Population covered | 99% | 72% | | |100% | | 83% |
+
+#### Austria
+![at_temporal](figures/AT_temporal.svg)
+
+#### Denmark
+![dk_temporal](figures/DK_temporal.svg)
+
+#### Germany
+![de_temporal](figures/DE_temporal.svg)
+
+#### France
+![fr_temporal](figures/FR_temporal.svg)
+
+#### Italy
+![it_temporal](figures/IT_temporal.svg)
+
+#### NOrway
+![no_temporal](figures/NO_temporal.svg)
