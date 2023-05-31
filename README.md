@@ -42,5 +42,5 @@ We currently operate with an allowlist of places within a country, following the
 #### Italy
 ![it_temporal](figures/IT_temporal.svg)
 
-#### NOrway
+#### Norway
 ![no_temporal](figures/NO_temporal.svg)
