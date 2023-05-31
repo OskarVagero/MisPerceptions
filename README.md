@@ -32,15 +32,20 @@ We currently operate with an allowlist of places within a country, following the
 
 #### Denmark
 ![dk_temporal](figures/DK_temporal.svg)
+![dk_geospatial](figures/dk_geospatial.svg)
 
 #### Germany
 ![de_temporal](figures/DE_temporal.svg)
+![de_geospatial](figures/de_geospatial.svg)
 
 #### France
 ![fr_temporal](figures/FR_temporal.svg)
+![fr_geospatial](figures/fr_geospatial.svg)
 
 #### Italy
 ![it_temporal](figures/IT_temporal.svg)
+![it_geospatial](figures/it_geospatial.svg)
 
 #### Norway
 ![no_temporal](figures/NO_temporal.svg)
+![no_geospatial](figures/no_geospatial.svg)
