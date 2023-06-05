@@ -6,7 +6,7 @@ Particularly, this repository contains the scripts and some supporting data for 
 
 ### Flowchart of the overarching process
 
-Only 2% of tweets contains the geographical location through exac GPS coordinates [(van der Veen et al., 2015)](https://doi.org/10.48550/arXiv.1508.02483). 
+Only 2% of tweets contains the geographical location through exac GPS coordinates ([(van der Veen et al., 2015](https://doi.org/10.48550/arXiv.1508.02483)). 
 
 ### Cities & locations included in different countries (places_country.csv). 
 We currently operate with an allowlist of places within a country, following the methodology of [Bruns et al. (2017)](https://doi.org/10.1177/2056305117748162). Due to data availability, the country allowlists have to be constructed and verified differently, based on what data is available. 
