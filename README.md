@@ -29,7 +29,11 @@ We currently operate with an allowlist of places within a country, following the
 | Tweets per million inhabitants | 
 | Population covered | 99% | 72% | | |100% | | 83% |
 
+
+
 #### Austria
+Duplicate cities removed: Altenburg, Auerbach, Bergheim, Burgau, Falkenstein, Friedberg, Krumbach, Lengenfeld, Lichtenberg, Liebenau, Meiningen, Moosburg, Mühldorf, Münster, Neunkirchen, Pottenstein,, Senftenberg, Weißensee, Zell
+
 ![at_temporal](figures/AT_temporal.svg)
 
 #### Denmark
@@ -37,6 +41,7 @@ We currently operate with an allowlist of places within a country, following the
 ![dk_geospatial](figures/dk_geospatial.svg)
 
 #### Germany
+Duplicate cities removed: Frauenstein
 ![de_temporal](figures/DE_temporal.svg)
 ![de_geospatial](figures/de_geospatial.svg)
 
