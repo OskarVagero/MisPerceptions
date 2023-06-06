@@ -29,10 +29,8 @@ We currently operate with an allowlist of places within a country, following the
 | Tweets per million inhabitants | 
 | Population covered | 99% | 72% | | |100% | | 83% |
 
-
-
 #### Austria
-Duplicate cities removed: Altenburg, Auerbach, Bergheim, Burgau, Falkenstein, Friedberg, Krumbach, Lengenfeld, Lichtenberg, Liebenau, Meiningen, Moosburg, Mühldorf, Münster, Neunkirchen, Pottenstein,, Senftenberg, Weißensee, Zell
+Duplicate cities removed: Altenburg, Auerbach, Berg, Bergheim, Burgau, Egg, Falkenstein, Friedberg, Krumbach, Lengenfeld, Lichtenberg, Liebenau, Meiningen, Moosburg, Mühldorf, Münster, Neunkirchen, Pottenstein,, Schlatt, Senftenberg, Stetten, Thal, Vals, Weißensee, Zell
 
 ![at_temporal](figures/AT_temporal.svg)
 
@@ -41,7 +39,7 @@ Duplicate cities removed: Altenburg, Auerbach, Bergheim, Burgau, Falkenstein, Fr
 ![dk_geospatial](figures/dk_geospatial.svg)
 
 #### Germany
-Duplicate cities removed: Frauenstein
+Duplicate cities removed: Altendorf, Frauenstein, Kirchberg, Speicher, Zell
 ![de_temporal](figures/DE_temporal.svg)
 ![de_geospatial](figures/de_geospatial.svg)
 
@@ -56,3 +54,6 @@ Duplicate cities removed: Frauenstein
 #### Norway
 ![no_temporal](figures/NO_temporal.svg)
 ![no_geospatial](figures/no_geospatial.svg)
+
+#### Switzerland
+Duplicate cities removed: Buch, Burg, Büren, Burgdorf, Cham, Endingen, Feldbach, Felsberg, Fischbach, Fürstenau, Fürstenberg, Homberg, Horn, Koblenz, Laufen, Laufenburg, Lindau, Müllheim, Münsingen, Oberhof, Oberkirch, Olsberg, Rain, Reichenau, Rheinau, Rheinfelden, Rothenburg, Schlierbach, Schongau, Schwarzenberg, Stans, Stein, Steinach, Waldenburg, Waldkirch, Wildberg, 
