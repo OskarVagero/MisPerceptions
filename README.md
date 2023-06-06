@@ -30,7 +30,7 @@ We currently operate with an allowlist of places within a country, following the
 | Tweets per million inhabitants | 
 | Population covered | 99% | 72% | | |100% | | 83% |
 
-
+![sankey](figures/sankey.svg)
 
 #### Austria
 Duplicate cities removed: Altenburg, Auerbach, Berg, Bergheim, Burgau, Egg, Falkenstein, Friedberg, Krumbach, Lengenfeld, Lichtenberg, Liebenau, Meiningen, Moosburg, Mühldorf, Münster, Neunkirchen, Pottenstein,, Schlatt, Senftenberg, Stetten, Thal, Vals, Weißensee, Zell
