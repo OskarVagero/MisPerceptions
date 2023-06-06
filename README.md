@@ -17,6 +17,7 @@ We currently operate with an allowlist of places within a country, following the
 * For **Germany**, the list contain 2055 cities and towns, sourced from [Wikipedia](https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Germany). Currently, it does not include population data, but a potential data source is [Statistikportal.de](https://www.statistikportal.de/de/gemeindeverzeichnis).
 * For **Italy**, the places include all municipalities of the 107 provinces, resulting in 7817 places for Italy. These locations cover 100% of the population, according to data from [The Italian National Institute of Statistics](https://demo.istat.it/app/?i=D7B&a=2023&l=en)
 * For **Norway**, the places include _townships_ of at least 200 people within 50 meter of one another and covers at least 82.67% of the population, based on numbers from [Statistics Norway](https://www.ssb.no/befolkning/folketall/statistikk/tettsteders-befolkning-og-areal). 
+* For **Switzerland**, the places include all municipalities of Switzerland and cities of over 10,000 inhabitants. Data is sourced from [The Swiss Federal Statistical Office](https://www.bfs.admin.ch/bfs/en/home/basics/swiss-official-commune-register.assetdetail.6986904.html)
 
 ### Data overview
 |             | Austria | Denmark | France | Germany | Italy | Ireland | Norway | 
@@ -28,6 +29,8 @@ We currently operate with an allowlist of places within a country, following the
 | Final sample of tweets | 278,907 | 17,443 | 989,237 | 428,416 | 147,680 | | 63,830 |
 | Tweets per million inhabitants | 
 | Population covered | 99% | 72% | | |100% | | 83% |
+
+
 
 #### Austria
 Duplicate cities removed: Altenburg, Auerbach, Berg, Bergheim, Burgau, Egg, Falkenstein, Friedberg, Krumbach, Lengenfeld, Lichtenberg, Liebenau, Meiningen, Moosburg, Mühldorf, Münster, Neunkirchen, Pottenstein,, Schlatt, Senftenberg, Stetten, Thal, Vals, Weißensee, Zell
