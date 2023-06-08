@@ -22,11 +22,11 @@ We currently operate with an allowlist of places within a country, following the
 ### Data overview
 |             | Austria | Denmark | France | Germany | Italy | Ireland | Norway | Switzerland |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Raw tweets      | 1,097,818 | 79,571 | 1,943,353 | 1,097,818 | 313,188 | | 118,439 | CH |
+| Raw tweets (language-based) | 1,097,818 | 79,571 | 1,943,353 | 1,097,818 | 313,188 | | 118,439 | CH |
 | Excluded due to lack of geodata  | 368,722 | 22,515 | 648,304 | 368,722 | 114,351 |  | 31,769 | CH |
-| Tweets with geolocation | 729,091 | 57,056 | 1,295,049 | 729,091 | 198,837 |  | 86,670 | CH |
+| Tweets with geolocation (language-based) | 729,091 | 57,056 | 1,295,049 | 729,091 | 198,837 |  | 86,670 | CH |
 | Tweets excluded due to illegible geodata | 450,050 | 24,169 | 305,552 | 300,541 | 51,131 |  | 22,827 | CH |
-| Final sample of tweets | 278,907 | 32,862 | 989,237 | 428,416 | 147,680 | | 63,830 | CH |
+| Final sample of tweets (country-based) | 278,907 | 32,862 | 989,237 | 428,416 | 147,680 | | 63,830 | CH |
 | Tweets per million inhabitants | AT | 5,613 | FR | DE | IT | IE | 11,813 | CH |
 | Population covered | 99% | 72% | | |100% | | 83% | CH |
 
