@@ -32,12 +32,6 @@ We currently operate with an allowlist of places within a country, following the
 
 ![sankey](figures/sankey.svg)
 
-Duplicates: 
-Italy: 
-
-Switzerland:  Brione
-
-
 #### Austria
 Duplicate cities removed: Altenburg, Auerbach, Berg, Bergheim, Burgau, Egg, Falkenstein, Friedberg, Krumbach, Lengenfeld, Lichtenberg, Liebenau, Meiningen, Moosburg, Mühldorf, Münster, Neunkirchen, Pottenstein,, Schlatt, Senftenberg, Stetten, Thal, Vals, Weißensee, Zell
 
@@ -61,7 +55,7 @@ Duplicate cities removed: Aubonne, Berg, Bettlach, Breitenbach, Bulle, Cartigny,
 ![fr_geospatial](figures/fr_geospatial.svg)
 
 #### Italy
-Duplicate cities removed: 
+Duplicate cities removed: Comano, Muzzano, Rossa, Villeneuve, 
 
 ![it_temporal](figures/IT_temporal.svg)
 ![it_geospatial](figures/it_geospatial.svg)
@@ -75,4 +69,4 @@ Duplicate cities removed in German: Buch, Burg, Büren, Burgdorf, Cham, Endingen
 
 Duplicate cities removed in French: Champagne, Châtillon, Dizy, Gy, Hochfelden, Jussy, La Chaux, La Ferrière, Le Châtelard, Leimbach, Lens, Lignières, Montfaucon, Orges, Rochefort, Rougemont, Rue, Trun,
 
-Duplicate cities removed in Italian: 
+Duplicate cities removed in Italian: Brione, Castro, Châtillon, Prato, Vernate,
