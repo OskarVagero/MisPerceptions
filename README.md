@@ -27,6 +27,8 @@ We currently operate with an allowlist of places within a country, following the
 | Tweets with geolocation (language-based)  | 729,091   | 57,056  | 1,295,049 | 729,091   | 198,837 |     | 86,670  | CH |
 | Tweets excluded due to illegible geodata  | 450,050   | 19,262  | 305,552   | 300,541   | 51,131  |     | 11,661  | CH |
 | Final sample of tweets (country-based)    | 278,907   | 37,769  | 989,237   | 428,416   | 147,680 |     | 74,996  | CH |
+| Number of unique users                    |           |         |           |           |         |     | 7,939   | CH |
+| Highest number of tweets from single user |           |         |           |           |         |     | 2,533   | CH |
 | Tweets per million inhabitants            | AT        | 6,451   | FR        | DE        | IT      | IE  | 13,880  | CH |
 
 ![sankey](figures/sankey.svg)
