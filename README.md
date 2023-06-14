@@ -16,6 +16,7 @@ We currently operate with an allowlist of places within a country, following the
 * For **France**, the places are sourced from [Banatic](https://www.banatic.interieur.gouv.fr/V5/fichiers-en-telechargement/fichiers-telech.php) and available in English through the sublinks of [this Wikipedia page](https://en.wikipedia.org/wiki/Lists_of_communes_of_France). Currently, there is no verification of how much of the population is covered, however, it is known to be greater than 40%. With 6941 different locations, it is expected to be comprehensive. 
 * For **Germany**, the list contain 2055 cities and towns, sourced from [Wikipedia](https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Germany) in combination with all NUTS1 (Bundesländer), NUTS2 (Regierungsbezirk) and NUTS3 (Landkreis). 
 * For **Italy**, the places include all municipalities of the 107 provinces, resulting in 7817 places for Italy. These locations cover 100% of the population, according to data from [The Italian National Institute of Statistics](https://demo.istat.it/app/?i=D7B&a=2023&l=en)
+* For **Ireland**, include cities, boroughs and towns in Ireland, as well as provinces and historical counties. Additionally, we actively exclude states and cities with a population over 50,000 in the U.S, 
 * For **Norway**, the places include _townships_ of at least 200 people within 50 meter of one another and covers at least 82.67% of the population, based on numbers from [Statistics Norway](https://www.ssb.no/befolkning/folketall/statistikk/tettsteders-befolkning-og-areal). 
 * For **Switzerland**, the places include all municipalities of Switzerland and cities of over 10,000 inhabitants. Data is sourced from [The Swiss Federal Statistical Office](https://www.bfs.admin.ch/bfs/en/home/basics/swiss-official-commune-register.assetdetail.6986904.html)
 
@@ -25,10 +26,10 @@ We currently operate with an allowlist of places within a country, following the
 | Raw tweets (language-based)               | 1,097,818 | 79,571  | 1,943,353 | 1,097,818 | 313,188 |     | 118,439 | CH |
 | Excluded due to lack of geodata           | 368,722   | 22,515  | 648,304   | 368,722   | 114,351 |     | 31,769  | CH |
 | Tweets with geolocation (language-based)  | 729,091   | 57,056  | 1,295,049 | 729,091   | 198,837 |     | 86,670  | CH |
-| Tweets excluded due to illegible geodata  | 450,050   | 19,262  | 305,552   | 300,541   | 51,131  |     | 11,661  | CH |
-| Final sample of tweets (country-based)    | 278,907   | 37,769  | 989,237   | 428,416   | 147,680 |     | 74,996  | CH |
-| Number of unique users                    |           |         |           |           |         |     | 7,939   | CH |
-| Highest number of tweets from single user |           |         |           |           |         |     | 2,533   | CH |
+| Tweets excluded due to illegible geodata  | 450,050   | 19,262  | 305,552   | 300,541   | 23,275  |     | 11,661  | CH |
+| Final sample of tweets (country-based)    | 278,907   | 37,769  | 989,237   | 428,416   | 158,039 |     | 74,996  | CH |
+| Number of unique users                    |           |         |           |           | 34,290  |     | 7,939   | CH |
+| Highest number of tweets from single user |           |         |           |           | 2,638   |     | 2,533   | CH |
 | Tweets per million inhabitants            | AT        | 6,451   | FR        | DE        | IT      | IE  | 13,880  | CH |
 
 ![sankey](figures/sankey.svg)
