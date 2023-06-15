@@ -23,14 +23,14 @@ We currently operate with an allowlist of places within a country, following the
 ### Data overview
 |             | Austria | Denmark | France | Germany | Italy | Ireland | Norway | Switzerland |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Raw tweets (language-based)               | 1,097,818 | 79,571  | 1,943,353 | 1,097,818 | 313,188 |     | 118,439 | CH |
-| Excluded due to lack of geodata           | 368,722   | 22,515  | 648,304   | 368,722   | 114,351 |     | 31,769  | CH |
-| Tweets with geolocation (language-based)  | 729,091   | 57,056  | 1,295,049 | 729,091   | 198,837 |     | 86,670  | CH |
-| Tweets excluded due to illegible geodata  | 130,368   | 19,262  | 305,552   | 130,368   | 23,275  |     | 11,661  | CH |
-| Final sample of tweets (country-based)    | 43,439    | 37,769  | 989,237   | 487,823   | 158,039 |     | 74,996  | CH |
+| Raw tweets (language-based)               | 1,097,818 | 79,571  | 1,943,353 | 1,097,818 | 313,188 |     | 118,439 | - |
+| Excluded due to lack of geodata           | 368,722   | 22,515  | 648,304   | 368,722   | 114,351 |     | 31,769  | - |
+| Tweets with geolocation (language-based)  | 729,091   | 57,056  | 1,295,049 | 729,091   | 198,837 |     | 86,670  | - |
+| Tweets excluded due to illegible geodata  | 130,368   | 19,262  | 305,552   | 130,368   | 23,275  |     | 11,661  | - |
+| Final sample of tweets (country-based)    | 43,439    | 37,769  | 965,840   | 487,823   | 158,039 |     | 74,996  | 79099 |
 | Number of unique users                    | 7,377     |         |           | 54,551    | 34,290  |     | 7,939   | CH |
 | Highest number of tweets from single user | 2,887     |         |           | 14,347    | 2,638   |     | 2,533   | CH |
-| Tweets per million inhabitants            | AT        | 6,451   | FR        | DE        | IT      | IE  | 13,880  | CH |
+| Tweets per million inhabitants            | 4,869     | 6,452   | 14,967    | 5,848     | 2,668   | IE  | 13,880  | 9100 |
 
 ![sankey](figures/sankey.svg)
 
