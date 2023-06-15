@@ -23,14 +23,14 @@ We currently operate with an allowlist of places within a country, following the
 ### Data overview
 |             | Austria | Denmark | France | Germany | Italy | Ireland | Norway | Switzerland |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Raw tweets (language-based)               | 1,097,818 | 79,571  | 1,943,353 | 1,097,818 | 313,188 |     | 118,439 | - |
-| Excluded due to lack of geodata           | 368,722   | 22,515  | 648,304   | 368,722   | 114,351 |     | 31,769  | - |
-| Tweets with geolocation (language-based)  | 729,091   | 57,056  | 1,295,049 | 729,091   | 198,837 |     | 86,670  | - |
-| Tweets excluded due to illegible geodata  | 130,368   | 19,262  | 305,552   | 130,368   | 23,275  |     | 11,661  | - |
-| Final sample of tweets (country-based)    | 43,439    | 37,769  | 965,840   | 487,823   | 158,039 |     | 74,996  | 79099 |
-| Number of unique users                    | 7,377     |         |           | 54,551    | 34,290  |     | 7,939   | CH |
-| Highest number of tweets from single user | 2,887     |         |           | 14,347    | 2,638   |     | 2,533   | CH |
-| Tweets per million inhabitants            | 4,869     | 6,452   | 14,967    | 5,848     | 2,668   | IE  | 13,880  | 9100 |
+| Raw tweets (language-based)               | 1,097,818 | 79,571  | 1,943,353 | 1,097,818 | 313,188 | 4,544,328 | 118,439 | -       |
+| Excluded due to lack of geodata           | 368,722   | 22,515  | 648,304   | 368,722   | 114,351 | 1,060,235 | 31,769  | -       |
+| Tweets with geolocation (language-based)  | 729,091   | 57,056  | 1,295,049 | 729,091   | 198,837 | 3,484,093 | 86,670  | -       |
+| Tweets excluded due to illegible geodata  | 130,368   | 19,262  | 305,552   | 130,368   | 23,275  | 3,444,617 | 11,661  | -       |
+| Final sample of tweets (country-based)    | 43,439    | 37,769  | 965,840   | 487,823   | 158,039 | 39,476    | 74,996  | 79,099  |
+| Number of unique users                    | 7,377     |         | 63,224    | 54,551    | 34,290  | 12,311    | 7,939   | 13,972  |
+| Highest number of tweets from single user | 2,887     |         | 4,846     | 14,347    | 2,638   | 1,179     | 2,533   | 3,919   |
+| Tweets per million inhabitants            | 4,869     | 6,452   | 14,967    | 5,848     | 2,668   | 7,917     | 13,880  | 9100    |
 
 ![sankey](figures/sankey.svg)
 
