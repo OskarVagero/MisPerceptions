@@ -56,6 +56,11 @@ Duplicate cities removed: Aubonne, Berg, Bettlach, Breitenbach, Bulle, Cartigny,
 ![fr_temporal](figures/FR_temporal.svg)
 ![fr_geospatial](figures/fr_geospatial.svg)
 
+#### Ireland
+
+![ie_temporal](figures/IR_temporal.svg)
+![ie_geospatial](figures/ie_geospatial.svg)
+
 #### Italy
 Duplicate cities removed: Comano, Muzzano, Rossa, Villeneuve, 
 
@@ -72,3 +77,6 @@ Duplicate cities removed in German: Buch, Burg, Büren, Burgdorf, Cham, Endingen
 Duplicate cities removed in French: Champagne, Châtillon, Dizy, Gy, Hochfelden, Jussy, La Chaux, La Ferrière, Le Châtelard, Leimbach, Lens, Lignières, Montfaucon, Orges, Rochefort, Rougemont, Rue, Trun,
 
 Duplicate cities removed in Italian: Brione, Castro, Châtillon, Prato, Vernate,
+
+![ch_temporal](figures/CH_temporal.svg)
+![ch_geospatial](figures/ch_geospatial.svg)
