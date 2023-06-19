@@ -37,9 +37,8 @@ We currently operate with an allowlist of places within a country, following the
 #### Austria
 Duplicate cities removed: Altenburg, Auerbach, Berg, Bergheim, Burgau, Egg, Falkenstein, Friedberg, Krumbach, Lengenfeld, Lichtenberg, Liebenau, Meiningen, Moosburg, Mühldorf, Münster, Neunkirchen, Pottenstein,, Schlatt, Senftenberg, Stetten, Thal, Vals, Weißensee, Zell
 
-Additionally, we remove 'Deutschlandsberg' because it gets assigned all locations which include 'Deutschland'. 
-
 ![at_temporal](figures/AT_temporal.svg)
+![at_geospatial](figures/at_geospatial.svg)
 
 #### Denmark
 ![dk_temporal](figures/DK_temporal.svg)
