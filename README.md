@@ -32,7 +32,7 @@ We currently operate with an allowlist of places within a country, following the
 | Highest number of tweets from single user | 2,887     | 638     | 8,886     | 14,347    | 2,638   | 1,179     | 2,533   | 3,919   |
 | Tweets per million inhabitants            | 4,869     | 6,452   | 14,967    | 5,848     | 2,668   | 7,917     | 13,880  | 9100    |
 
-![sankey](figures/sankey.svg)
+![sankey](figures/sankey_mod.svg)
 
 #### Austria
 Duplicate cities removed: Altenburg, Auerbach, Berg, Bergheim, Burgau, Egg, Falkenstein, Friedberg, Krumbach, Lengenfeld, Lichtenberg, Liebenau, Meiningen, Moosburg, Mühldorf, Münster, Neunkirchen, Pottenstein,, Schlatt, Senftenberg, Stetten, Thal, Vals, Weißensee, Zell
