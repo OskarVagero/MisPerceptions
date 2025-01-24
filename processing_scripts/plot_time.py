@@ -14,7 +14,7 @@ def plot_sentiment_trends(id_type='twitter'):
     colors = plt.cm.viridis(np.linspace(0, 1, 4))
     topics = ['a_bird_bat', 'c_visual', 'f_participation', 'p_long_planning']
     
-    fig, axes = plt.subplots(4, 1, figsize=(12, 16), sharex=True)
+    fig, axes = plt.subplots(4, 1, figsize=(12/2, 16/2), sharex=True)
     
     for ax_idx, topic in enumerate(topics):
         axes[ax_idx].grid()
@@ -55,7 +55,7 @@ def plot_sentiment_trends(id_type='twitter'):
         axes[ax_idx].set_ylim(-1.1, 1.2)
         #axes[ax_idx].set_ylabel('Average Sentiment Score')
         axes[ax_idx].set_xlim(pd.to_datetime('2017-01-01'), pd.to_datetime('2022-12-31'))
-        axes[ax_idx].legend(ncol=4, loc='upper left')
+        if ax_idx == 0: axes[ax_idx].legend(ncol=1, loc='upper right')
         axes[ax_idx].set_ylabel(focus_topics[topic])
         
         if ax_idx == 3:
