@@ -104,3 +104,42 @@ def create_4x2_panel_plot():
    plt.close()
 
 create_4x2_panel_plot()
+
+
+for country in ['DE', 'DK', 'NO', 'AT']:
+   twitter_data = pd.read_csv(f'{country}/twitter_sentiment.csv')
+   headline_data = pd.read_csv(f'{country}/headline_sentiment.csv')
+   
+   # Count total
+   twitter_total = len(twitter_data)
+   headline_total = len(headline_data)
+   
+   # Count high confidence (>0.8)
+   twitter_high_conf = len(twitter_data[twitter_data['sentiment_score'] > 0.8])
+   headline_high_conf = len(headline_data[headline_data['sentiment_score'] > 0.8])
+   
+   print(f'\n{country}:')
+   print(f'Twitter: {twitter_total:,} total, {twitter_high_conf:,} high conf ({twitter_high_conf/twitter_total*100:.1f}%)')
+   print(f'Headlines: {headline_total:,} total, {headline_high_conf:,} high conf ({headline_high_conf/headline_total*100:.1f}%)')
+
+
+print('+++++++')
+
+
+countries = ['DE', 'DK', 'NO', 'AT']
+total_twitter = 0
+total_headlines = 0
+high_conf_twitter = 0
+high_conf_headlines = 0
+
+for country in countries:
+   twitter_data = pd.read_csv(f'{country}/twitter_sentiment.csv')
+   headline_data = pd.read_csv(f'{country}/headline_sentiment.csv')
+   
+   total_twitter += len(twitter_data)
+   total_headlines += len(headline_data)
+   high_conf_twitter += len(twitter_data[twitter_data['sentiment_score'] > 0.8])
+   high_conf_headlines += len(headline_data[headline_data['sentiment_score'] > 0.8])
+
+print(f'Total Twitter: {total_twitter:,} tweets, {high_conf_twitter:,} high conf ({high_conf_twitter/total_twitter*100:.1f}%)')
+print(f'Total Headlines: {total_headlines:,} headlines, {high_conf_headlines:,} high conf ({high_conf_headlines/total_headlines*100:.1f}%)')
