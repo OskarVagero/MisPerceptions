@@ -143,3 +143,29 @@ for country in countries:
 
 print(f'Total Twitter: {total_twitter:,} tweets, {high_conf_twitter:,} high conf ({high_conf_twitter/total_twitter*100:.1f}%)')
 print(f'Total Headlines: {total_headlines:,} headlines, {high_conf_headlines:,} high conf ({high_conf_headlines/total_headlines*100:.1f}%)')
+
+
+# note germany outlier
+data = pd.read_csv('DE/twitter_sentiment.csv')
+
+# Calculate percentages of total dataset
+total_tweets = len(data)
+sentiment_month_pct = pd.crosstab(
+   data['year_month'],
+   data['sentiment_label']
+) / total_tweets * 100
+
+# Create heatmap
+plt.figure(figsize=(15, 5))
+sns.heatmap(
+   sentiment_month_pct.T,
+   cmap='YlOrRd',
+   cbar_kws={'label': '% of total tweets'}
+)
+plt.title('Monthly Sentiment Distribution (% of All German Tweets)')
+plt.xlabel('Year-Month')
+plt.ylabel('Sentiment')
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.savefig('german_sentiment_heatmap_total.png', dpi=300, bbox_inches='tight')
+plt.close()
