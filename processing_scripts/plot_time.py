@@ -56,7 +56,8 @@ def plot_sentiment_trends(id_type='twitter'):
         #axes[ax_idx].set_ylabel('Average Sentiment Score')
         axes[ax_idx].set_xlim(pd.to_datetime('2017-01-01'), pd.to_datetime('2022-12-31'))
         if ax_idx == 0: axes[ax_idx].legend(ncol=1, loc='upper right')
-        axes[ax_idx].set_ylabel(focus_topics[topic])
+        lab = ['a', 'b', 'c', 'd'][ax_idx]
+        axes[ax_idx].set_ylabel('(%s) ' % lab + focus_topics[topic])
         
         if ax_idx == 3:
             axes[ax_idx].set_xlabel('Date')
