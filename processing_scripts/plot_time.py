@@ -21,6 +21,7 @@ def plot_sentiment_trends(id_type='twitter'):
         for cc, country in enumerate(['DK', 'DE', 'AT', 'NO']):
             time_col = 'created_at' if id_type == 'twitter' else 'publish_date'
             dat = pd.read_csv(f'{country}/{id_type}_sentiment.csv')
+            #dat = dat[dat.sentiment_score > 0.8]
             
             dat['numerical_sentiment'] = dat['sentiment_label'].map({
                 'LABEL_0': -1, 'LABEL_1': 0, 'LABEL_2': 1
